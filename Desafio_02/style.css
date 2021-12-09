@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+
+    background-color: #90b394;
+}
+
+.container {
+
+    width: 80vw;
+    height: max-content;
+    background-color: white;
+
+
+}
+
+.logo {
+    width: 289px;
+    height: 46px;
+    padding: 30px;
+
+}
+
+/*Menu*/
+nav {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+ul {
+    display: flex;
+    justify-items: space-between;
+    margin-top: 50px;
+
+
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    list-style: none;
+
+}
+
+ul:hover li {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+li {
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+/*Formatação Header*/
+header {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/img/banner3.jpg);
+
+    height: 400px;
+
+}
+
+.titulo {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow:
+        -1px -1px 0px white,
+        -1px 1px 0px white,
+        1px -1px 0px white,
+        1px 0px 0px white;
+}
+
+
+.textoBanner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+
+p {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #000000;
+    text-shadow:
+        -1px -1px 0px white,
+        -1px 1px 0px white,
+        1px -1px 0px white,
+        1px 0px 0px white;
+
+}
+
+/*Formatação Formulário*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+label {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+    margin-top: 10px;
+
+}
+
+input {
+    width: 268px;
+    height: 50px;
+    margin-top: 5px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+
+}
+
+#comentario {
+    width: 268px;
+    height: 110px;
+}
+
+button {
+    width: 89px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 10px;
+
+    background: #45aa51;
+    border-radius: 10px;
+    border: none;
+
+    color: black;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Formatação Section Quem Somos*/
+
+h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+
+    text-align: center;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quemSomosTexto {
+
+    width: auto;
+    height: auto;
+    padding: 0px 50px 0px 50px;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    word-break: normal;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
+}
+
+/*Formatação Section Nossos Serviços*/
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.div {
+    width: auto;
+    height: auto;
+
+}
+
+.servicosTexto {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    word-break: normal;
+    padding: 0px 50px 0px 50px;
+
+}
+
+h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+    text-align: center;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.design {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.fabricacao {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.desfile {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 15vh;
+    background-color: #000000;
+    align-items: center;
+
+}
+
+.facebook {
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.instagram {
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.pinterest {
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.twitter {
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+}
